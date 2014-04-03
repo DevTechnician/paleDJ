@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/audio_playpause"
+        android:title="Play/Pause"
+        android:orderInCategory="0"
+        android:showAsAction="ifRoom|withText" />
+
+    <!--<item
+    android:id="@+id/audio_stop"
+    android:title="Stop"
+    android:orderInCategory="0"
+    android:showAsAction="ifRoom|withText" />-->
+
+    <item
+        android:id="@+id/audio_next"
+        android:title="Skip/Next"
+        android:orderInCategory="0"
+        android:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/audio_quit"
+        android:title="Quit"
+        android:orderInCategory="0"
+        android:showAsAction="ifRoom|withText" />
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.devtechnician.paledj"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_pager">
+
+    <com.viewpagerindicator.TitlePageIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        app:selectedColor="#000000"
+        />
+
+    <android.support.v4.view.ViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:id="@+id/nowplaying_layout"
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:id="@+id/albumart_IconView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/abs__ab_solid_light_holo"
+            android:layout_alignParentLeft="true"
+            />
+
+        <TextView
+            android:id="@+id/nowplaying_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff000000"
+            />
+
+        <ImageButton android:id="@+id/actionImage_button"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+</LinearLayout>

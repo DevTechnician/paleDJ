@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PaleDJ/PaleDJ.iml" filepath="$PROJECT_DIR$/PaleDJ/PaleDJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PaleDJProject.iml" filepath="$PROJECT_DIR$/PaleDJProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PaleDJLibraries/JakeWharton-Android-ViewPagerIndicator-8cd549f/library/VPI.iml" filepath="$PROJECT_DIR$/../PaleDJLibraries/JakeWharton-Android-ViewPagerIndicator-8cd549f/library/VPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PaleDJLibraries/JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock/actionbarsherlock.iml" filepath="$PROJECT_DIR$/../PaleDJLibraries/JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock/actionbarsherlock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PaleDJLibraries/SlidingMenu-master/library/library.iml" filepath="$PROJECT_DIR$/../PaleDJLibraries/SlidingMenu-master/library/library.iml" />
+    </modules>
+  </component>
+</project>
+
